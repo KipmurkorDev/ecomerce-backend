@@ -2,7 +2,8 @@ CREATE PROCEDURE updatProduct(@id_product INT,  @name_product varchar(100),
  @description VARCHAR(100), 
  @price money, @discount_rate int,
   @image_url 
-  varchar(50))
+  varchar(50),
+  )
   AS
   BEGIN
   UPDATE products
